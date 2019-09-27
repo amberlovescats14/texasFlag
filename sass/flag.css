@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #efefef;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+body h1 {
+  font-family: "Roboto Mono", monospace;
+  border: 2px solid;
+  margin-top: 10px;
+}
+body #flag-wrapper {
+  border: 2px solid black;
+  width: 65vw;
+  height: 60vh;
+  margin: auto;
+  background: white;
+  display: flex;
+}
+body #flag-wrapper .navy {
+  background: navy;
+  width: 33.3333333333%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body #flag-wrapper .navy img {
+  width: 90%;
+  height: 40%;
+  background: navy;
+}
+body #flag-wrapper .right {
+  background: mediumpurple;
+  width: 66.6666666667%;
+}
+body #flag-wrapper .right .white {
+  width: 100%;
+  height: 50%;
+}
+body #flag-wrapper .right .red {
+  background: red;
+  height: 50%;
+  width: 100%;
+}
+
+/*# sourceMappingURL=flag.css.map */
