@@ -17,6 +17,7 @@ body {
 }
 body h1 {
   font-family: "Roboto Mono", monospace;
+  text-shadow: 0 0 1px transparent;
   border: 2px solid;
   margin-top: 10px;
 }
